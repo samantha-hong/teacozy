@@ -16,7 +16,7 @@ h3{
 }
 
 h4{
-    font-size: 1.5rem;
+    font-size: 1.15rem;
 }
 
 ul{
@@ -49,6 +49,7 @@ header{
 .mission{
     height: 700px;
     width: 1200px;
+    display: inline-block;
 }
 
 .mission h2, h4{
@@ -56,4 +57,31 @@ header{
     align-items: center;
 }
 
+.tea{
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.tea img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+article{
+    height: 500px;
+    
+}
+
+.locations{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Downtown, #east, #Oakdale{
+    width: 300px;
+    flex-wrap:wrap;
+    opacity: 1;
+}
