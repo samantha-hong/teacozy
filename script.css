@@ -28,13 +28,14 @@ header{
     width: 100%;
     border-bottom: 1px solid seashell;
     position: fixed;
-    z-index: 999;
+    z-index: 2;
 }
 
 #logo{
     float: left;
     margin-left: 10px;
     height: 50px;
+    z-index: 10;
 }
 
 .nav li{
@@ -53,7 +54,6 @@ header{
 }
 
 .mission h2, h4{
-    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -76,12 +76,39 @@ article{
 }
 
 .locations{
-    display: flex;
-    justify-content: space-around;
+    height: 500px;
+    width: 1200px;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
 }
 
-#Downtown, #east, #Oakdale{
+#Downtown{
     width: 300px;
-    flex-wrap:wrap;
+    height: 300px;
     opacity: 1;
+    margin: 15px 20px;
+}
+
+#east{
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+#Oakdale{
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+}
+
+footer{
+    height: 200px;
+}
+
+.copyright{
+    margin-left: 20px;
+    text-align: left;
 }
